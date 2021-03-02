@@ -7,8 +7,8 @@
 // @match        http*://*.last-war.de/main.php*
 // @match        http*://*.last-war.de/main-mobile.php*
 // @grant        none
-// @downloadURL  https://github.com/BenniBaerenstark/ToD-Shipmarket/main.user.js
-// @updateURL    https://github.com/BenniBaerenstark/ToD-Shipmarket/main.user.js
+// @downloadURL  https://github.com/BenniBaerenstark/ToD-Shipmarket/raw/main/main.user.js
+// @updateURL    https://github.com/BenniBaerenstark/ToD-Shipmarket/raw/main/main.user.js
 // ==/UserScript==
 
 (function() {
@@ -104,56 +104,55 @@
     const fz = 12
     const go = 13
 
-    //Armageddon
+    //[ToD]Pan
     ships[0] = new Array()
-    ships[0][name] = "Армагеддон"
-    ships[0][att] = 15270
-    ships[0][def] = 10066
-    ships[0][drive] = "NUK"
-    ships[0][drive_s] = 160
-    ships[0][freight] = 120
-    ships[0][lkom] = true
-    ships[0][tt] = false
-    ships[0][fe] = 27144
-    ships[0][kr] = 51422
-    ships[0][fb] = 456
-    ships[0][or] = 35978
-    ships[0][fz] = 17737
-    ships[0][go] = 100
+    ships[0][name] = "[ToD]Pan"
+    ships[0][fe] = 4867               
+    ships[0][kr] = 6822
+    ships[0][fb] = 2400
+    ships[0][or] = 1733 
+    ships[0][fz] = 1378
+    ships[0][go] = 0
 
-    //Сухой Су-57
+    //[ToD]Hermes
     ships[1] = new Array()
-    ships[1][name] = "Сухой Су-57"
-    ships[1][att] = 0
-    ships[1][def] = 0
-    ships[1][drive] = "NUK"
-    ships[1][drive_s] = 160
-    ships[1][freight] = 0
-    ships[1][lkom] = true
-    ships[1][tt] = true
-    ships[1][fe] = 27944
-    ships[1][kr] = 51422
-    ships[1][fb] = 2123
-    ships[1][or] = 25091
-    ships[1][fz] = 11641
-    ships[1][go] = 567
+    ships[1][name] = "[ToD]Hermes"
+    ships[1][fe] = 8733
+    ships[1][kr] = 6389 
+    ships[1][fb] = 2600
+    ships[1][or] = 2233
+    ships[1][fz] = 2.878
+    ships[1][go] = 0
     
-     //ъуран
+     //[ToD]Poseidon
     ships[2] = new Array()
-    ships[2][name] = "ъуран"
-    ships[2][att] = 0
-    ships[2][def] = 0
-    ships[2][drive] = "NUK"
-    ships[2][drive_s] = 160
-    ships[2][freight] = 0
-    ships[2][lkom] = true
-    ships[2][tt] = true
-    ships[2][fe] = 42399
-    ships[2][kr] = 66422
-    ships[2][fb] = 3633
-    ships[2][or] = 14204
-    ships[2][fz] = 5545
+    ships[2][name] = "[ToD]Poseidon"
+    ships[2][fe] = 56800
+    ships[2][kr] = 52422
+    ships[2][fb] = 1433
+    ships[2][or] = 24517
+    ships[2][fz] = 12451
     ships[2][go] = 100
+    
+    //[ToD]Dionysos
+    ships[3] = new Array()
+    ships[3][name] = "[ToD]Dionysos"
+    ships[3][fe] = 40599
+    ships[3][kr] = 61922
+    ships[3][fb] = 3633
+    ships[3][or] = 17117
+    ships[3][fz] = 7117
+    ships[3][go] = 100
+    
+    //[ToD]Zeus II
+    ships[4] = new Array()
+    ships[4][name] = "[ToD]Zeus II"
+    ships[4][fe] = 27452
+    ships[4][kr] = 51422
+    ships[4][fb] = 546
+    ships[4][or] = 35978
+    ships[4][fz] = 17737
+    ships[4][go] = 100
 
     function getShipNames(){
         var names = new Array();
