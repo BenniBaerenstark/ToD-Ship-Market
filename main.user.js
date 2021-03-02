@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ToD Shipmarket
+// @name         ToD Ship Market
 // @namespace    http://tampermonkey.net/
 // @version      0.8
 // @description  Tool for LastWar
