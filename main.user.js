@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ToD Ship Market
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      1.0
 // @description  Tool for LastWar
 // @author       Revan
 // @match        http*://*.last-war.de/main.php*
@@ -164,7 +164,6 @@
 
 
     function setTrade(){
-        console.log(select.selectedIndex)
         var ship = select.selectedIndex
         var quantity = input.value
         document.getElementById("my_eisen").value = quantity * ships[ship][fe]
